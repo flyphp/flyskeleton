@@ -1,0 +1,36 @@
+{
+	"name": "flyphp/skeleton",
+	"description": "The FlyPHP Framework.",
+	"keywords": ["framework", "flyphp"],
+	"license": "MIT",
+	"require": {
+		"flyphp/framework": "dev-master"
+	},
+	"autoload": {
+		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/models",
+			"app/database/migrations",
+			"app/database/seeds",
+			"app/tests/TestCase.php"
+		]
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php fly clear-compiled",
+			"php fly optimize"
+		],
+		"post-update-cmd": [
+			"php fly clear-compiled",
+			"php fly optimize"
+		],
+		"post-create-project-cmd": [
+			"php fly key:generate"
+		]
+	},
+	"config": {
+		"preferred-install": "dist" //dist
+	},
+	"minimum-stability": "dev"
+}
