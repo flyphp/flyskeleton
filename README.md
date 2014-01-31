@@ -20,4 +20,4 @@ WIP.
 
 The FlyPHP framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
-[!(http://analise.kunder.com.br/piwik.php?idsite=14&rec=1)]
+[![Thanks!](http://analise.kunder.com.br/piwik.php?idsite=14&rec=1)]
