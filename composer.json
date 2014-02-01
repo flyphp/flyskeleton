@@ -30,7 +30,7 @@
 		]
 	},
 	"config": {
-		"preferred-install": "dist" //dist
+		"preferred-install": "dist"
 	},
 	"minimum-stability": "dev"
 }
