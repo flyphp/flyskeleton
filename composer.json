@@ -1,10 +1,10 @@
 {
-	"name": "flyphp/skeleton",
+	"name": "flyphp/flyskeleton",
 	"description": "The FlyPHP Framework.",
-	"keywords": ["framework", "flyphp"],
+	"keywords": ["framework", "flyphp", "skeleton", "flyskeleton"],
 	"license": "MIT",
 	"require": {
-		"flyphp/framework": "dev-master"
+		"flyphp/framework": "1.0.*"
 	},
 	"autoload": {
 		"classmap": [
@@ -32,5 +32,5 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "stable"
 }
