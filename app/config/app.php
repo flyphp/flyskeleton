@@ -154,7 +154,7 @@ return array(
 		'Lang'            => 'Fly\Support\Facades\Lang',
 		'Log'             => 'Fly\Support\Facades\Log',
 		'Mail'            => 'Fly\Support\Facades\Mail',
-		'FlyModel'        => 'Fly\Database\ORM\Model',
+		'FlyModel'        => 'Fly\Database\ActiveRecord\Model',
 		'Paginator'       => 'Fly\Support\Facades\Paginator',
 		'Password'        => 'Fly\Support\Facades\Password',
 		'Queue'           => 'Fly\Support\Facades\Queue',

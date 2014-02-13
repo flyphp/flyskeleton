@@ -11,19 +11,19 @@ return array(
 	| This driver manages the retrieval and authentication of the users
 	| attempting to get access to protected areas of your application.
 	|
-	| Supported: "database", "orm"
+	| Supported: "database", "activerecord"
 	|
 	*/
 
-	'driver' => 'orm',
+	'driver' => 'activerecord',
 
 	/*
 	|--------------------------------------------------------------------------
 	| Authentication Model
 	|--------------------------------------------------------------------------
 	|
-	| When using the "Orm" authentication driver, we need to know which
-	| Orm model should be used to retrieve your users. Of course, it
+	| When using the "ActiveRecord" authentication driver, we need to know which
+	| ActiveRecord model should be used to retrieve your users. Of course, it
 	| is often just the "User" model but you may use whatever you like.
 	|
 	*/
