@@ -163,6 +163,7 @@ return array(
 		'Request'         => 'Fly\Support\Facades\Request',
 		'Response'        => 'Fly\Support\Facades\Response',
 		'Route'           => 'Fly\Support\Facades\Route',
+		'SmartModel'      => 'Fly\Database\ActiveRecord\Smart\SmartModel',
 		'Schema'          => 'Fly\Support\Facades\Schema',
 		'Seeder'          => 'Fly\Database\Seeder',
 		'Session'         => 'Fly\Support\Facades\Session',
